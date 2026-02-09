@@ -47,10 +47,10 @@
   --info: #7EB3D8;
 
   /* ===== Gradients ===== */
-  --gradient-hope: linear-gradient(135deg, #A8F0F4 0%, #F278A1 100%);
+  --gradient-hope: linear-gradient(135deg, #5EEAEA 0%, #7EB3D8 100%);
   --gradient-trust: linear-gradient(135deg, #9A6B9E 0%, #7EB3D8 100%);
-  --gradient-neural: linear-gradient(180deg, #5EEAEA 0%, #9A6B9E 50%, #E8509A 100%);
-  --gradient-hero: linear-gradient(135deg, #FDFBF9 0%, #A8F0F4 50%, #F7F4F0 100%);
+  --gradient-neural: linear-gradient(180deg, #5EEAEA 0%, #9A6B9E 50%, #7EB3D8 100%);
+  --gradient-hero: linear-gradient(135deg, #FDFBF9 0%, #F7F4F0 50%, #FDFBF9 100%);
   --gradient-card: linear-gradient(145deg, rgba(255,255,255,0.9) 0%, rgba(168,240,244,0.2) 100%);
 
   /* Dark mode overlay opacity */
@@ -59,7 +59,7 @@
   /* ===== Typography ===== */
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-accent: 'Caveat', cursive;
+  --font-accent: var(--font-body);
 
   /* Type Scale (Major Third - 1.25) */
   --text-xs: 0.64rem;
@@ -91,7 +91,7 @@
   --shadow-sm: 0 2px 8px rgba(45, 42, 62, 0.08);
   --shadow-md: 0 4px 16px rgba(45, 42, 62, 0.12);
   --shadow-lg: 0 8px 32px rgba(45, 42, 62, 0.16);
-  --shadow-glow: 0 0 40px rgba(232, 80, 154, 0.2);
+  --shadow-glow: 0 0 40px rgba(94, 234, 234, 0.15);
   --shadow-glow-cyan: 0 0 40px rgba(94, 234, 234, 0.3);
 
   /* ===== Transitions ===== */
@@ -227,14 +227,14 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--gradient-hope);
+  background: var(--color-accent);
   color: var(--deep-charcoal);
-  box-shadow: 0 4px 20px rgba(232, 80, 154, 0.3);
+  box-shadow: 0 4px 20px rgba(94, 234, 234, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(232, 80, 154, 0.4);
+  box-shadow: 0 6px 24px rgba(94, 234, 234, 0.4);
 }
 
 .btn-secondary {
@@ -328,8 +328,8 @@ select.form-input option {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 20px rgba(232, 80, 154, 0.3); }
-  50% { box-shadow: 0 0 40px rgba(232, 80, 154, 0.5); }
+  0%, 100% { box-shadow: 0 0 20px rgba(94, 234, 234, 0.25); }
+  50% { box-shadow: 0 0 40px rgba(94, 234, 234, 0.4); }
 }
 
 @keyframes fade-up {
@@ -414,16 +414,16 @@ select.form-input option {
     --border-medium: #4D4660;
 
     /* Gradients adjusted for dark mode */
-    --gradient-hope: linear-gradient(135deg, rgba(103, 232, 249, 0.8) 0%, rgba(244, 114, 182, 0.8) 100%);
+    --gradient-hope: linear-gradient(135deg, rgba(110, 231, 231, 0.8) 0%, rgba(147, 197, 253, 0.8) 100%);
     --gradient-trust: linear-gradient(135deg, rgba(184, 143, 188, 0.8) 0%, rgba(147, 197, 253, 0.8) 100%);
-    --gradient-hero: linear-gradient(135deg, #1A1625 0%, rgba(103, 232, 249, 0.15) 50%, #231E2E 100%);
+    --gradient-hero: linear-gradient(135deg, #1A1625 0%, rgba(103, 232, 249, 0.1) 50%, #231E2E 100%);
     --gradient-card: linear-gradient(145deg, rgba(45, 39, 64, 0.9) 0%, rgba(103, 232, 249, 0.1) 100%);
 
     /* Shadows for dark mode */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
-    --shadow-glow: 0 0 40px rgba(244, 114, 182, 0.3);
+    --shadow-glow: 0 0 40px rgba(110, 231, 231, 0.2);
     --shadow-glow-cyan: 0 0 40px rgba(110, 231, 231, 0.3);
 
     --overlay-opacity: 0.7;
@@ -451,7 +451,7 @@ select.form-input option {
   /* Button adjustments */
   .btn-primary {
     color: #1A1625;
-    box-shadow: 0 4px 20px rgba(244, 114, 182, 0.4);
+    box-shadow: 0 4px 20px rgba(110, 231, 231, 0.4);
   }
 
   .btn-secondary {
@@ -526,15 +526,15 @@ select.form-input option {
   --border-light: #3D3650;
   --border-medium: #4D4660;
 
-  --gradient-hope: linear-gradient(135deg, rgba(103, 232, 249, 0.8) 0%, rgba(244, 114, 182, 0.8) 100%);
+  --gradient-hope: linear-gradient(135deg, rgba(110, 231, 231, 0.8) 0%, rgba(147, 197, 253, 0.8) 100%);
   --gradient-trust: linear-gradient(135deg, rgba(184, 143, 188, 0.8) 0%, rgba(147, 197, 253, 0.8) 100%);
-  --gradient-hero: linear-gradient(135deg, #1A1625 0%, rgba(103, 232, 249, 0.15) 50%, #231E2E 100%);
+  --gradient-hero: linear-gradient(135deg, #1A1625 0%, rgba(103, 232, 249, 0.1) 50%, #231E2E 100%);
   --gradient-card: linear-gradient(145deg, rgba(45, 39, 64, 0.9) 0%, rgba(103, 232, 249, 0.1) 100%);
 
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 40px rgba(244, 114, 182, 0.3);
+  --shadow-glow: 0 0 40px rgba(110, 231, 231, 0.2);
   --shadow-glow-cyan: 0 0 40px rgba(110, 231, 231, 0.3);
 
   --overlay-opacity: 0.7;
@@ -565,15 +565,15 @@ select.form-input option {
   --border-light: #E8E4E0;
   --border-medium: #D0CCC8;
 
-  --gradient-hope: linear-gradient(135deg, #A8F0F4 0%, #F278A1 100%);
+  --gradient-hope: linear-gradient(135deg, #5EEAEA 0%, #7EB3D8 100%);
   --gradient-trust: linear-gradient(135deg, #9A6B9E 0%, #7EB3D8 100%);
-  --gradient-hero: linear-gradient(135deg, #FDFBF9 0%, #A8F0F4 50%, #F7F4F0 100%);
+  --gradient-hero: linear-gradient(135deg, #FDFBF9 0%, #F7F4F0 50%, #FDFBF9 100%);
   --gradient-card: linear-gradient(145deg, rgba(255,255,255,0.9) 0%, rgba(168,240,244,0.2) 100%);
 
   --shadow-sm: 0 2px 8px rgba(45, 42, 62, 0.08);
   --shadow-md: 0 4px 16px rgba(45, 42, 62, 0.12);
   --shadow-lg: 0 8px 32px rgba(45, 42, 62, 0.16);
-  --shadow-glow: 0 0 40px rgba(232, 80, 154, 0.2);
+  --shadow-glow: 0 0 40px rgba(94, 234, 234, 0.15);
   --shadow-glow-cyan: 0 0 40px rgba(94, 234, 234, 0.3);
 
   --overlay-opacity: 0.5;

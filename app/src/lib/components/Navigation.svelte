@@ -160,7 +160,7 @@
     left: 50%;
     width: 0;
     height: 2px;
-    background: var(--color-secondary);
+    background: var(--color-accent);
     transition: all var(--transition-fast);
     transform: translateX(-50%);
   }
@@ -170,11 +170,11 @@
   }
 
   .nav-link:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
   }
 
   .nav-cta {
-    background: var(--gradient-hope);
+    background: var(--color-accent);
     color: var(--deep-charcoal);
     padding: var(--space-sm) var(--space-md);
     border-radius: var(--radius-full);
@@ -186,7 +186,7 @@
 
   .nav-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(232, 80, 154, 0.3);
+    box-shadow: 0 4px 12px rgba(94, 234, 234, 0.3);
   }
 
   /* Mobile Menu Toggle */

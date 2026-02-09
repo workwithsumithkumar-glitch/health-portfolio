@@ -191,10 +191,9 @@
   }
 
   .footer-tagline {
-    font-family: var(--font-accent);
+    font-family: var(--font-body);
     font-size: var(--text-lg);
     color: rgba(255, 255, 255, 0.6);
-    font-style: italic;
   }
 
   .footer-links h4,

@@ -156,8 +156,8 @@
     justify-content: center;
     box-shadow:
       var(--shadow-lg),
-      0 0 60px rgba(154, 107, 158, 0.15),
-      0 0 100px rgba(94, 234, 234, 0.1);
+      0 0 60px rgba(45, 42, 62, 0.1),
+      0 0 100px rgba(94, 234, 234, 0.08);
     overflow: hidden;
     border: 3px solid rgba(255, 255, 255, 0.8);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -167,8 +167,8 @@
     transform: scale(1.02);
     box-shadow:
       var(--shadow-lg),
-      0 0 80px rgba(154, 107, 158, 0.2),
-      0 0 120px rgba(94, 234, 234, 0.15);
+      0 0 80px rgba(45, 42, 62, 0.12),
+      0 0 120px rgba(94, 234, 234, 0.12);
   }
 
   @media (min-width: 768px) {
@@ -197,11 +197,11 @@
     position: absolute;
     width: 120px;
     height: 120px;
-    background: var(--gradient-hope);
+    background: var(--color-accent);
     border-radius: 50%;
     bottom: -20px;
     right: -20px;
-    opacity: 0.6;
+    opacity: 0.4;
     z-index: -1;
     animation: float 6s ease-in-out infinite;
   }
