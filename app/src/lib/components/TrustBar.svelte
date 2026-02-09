@@ -13,11 +13,11 @@
   ];
 
   const recognitionPhotos = [
-    { src: '/images/awards/ilae-eeg-school-kochi-2020.png', title: 'ILAE EEG School - Kochi 2020' },
-    { src: '/images/conferences/world-neurology-congress-2023.png', title: 'World Neurology Congress 2023' },
-    { src: '/images/conferences/neurology-advances-2024.png', title: 'Neurology Advances 2024' },
-    { src: '/images/conferences/ilae-35th-congress-group.png', title: 'ILAE 35th Congress' },
-    { src: '/images/dignitaries/medical-board-meeting.png', title: 'Medical Board Meeting' },
+    { src: '/images/awards/ilae-eeg-school-kochi-2020.webp', title: 'ILAE EEG School - Kochi 2020' },
+    { src: '/images/conferences/world-neurology-congress-2023.webp', title: 'World Neurology Congress 2023' },
+    { src: '/images/conferences/neurology-advances-2024.webp', title: 'Neurology Advances 2024' },
+    { src: '/images/conferences/ilae-35th-congress-group.webp', title: 'ILAE 35th Congress' },
+    { src: '/images/dignitaries/medical-board-meeting.webp', title: 'Medical Board Meeting' },
   ];
 
   let displayValues = $state(metrics.map(m => m.isNumber ? '0' : m.value));

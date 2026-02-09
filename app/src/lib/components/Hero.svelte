@@ -31,7 +31,7 @@
     <div class="hero-image">
       <div class="image-blob">
         <img
-          src="/images/hero/dr-dubey-portrait.png"
+          src="/images/hero/dr-dubey-portrait.webp"
           alt="Dr. Rachana Dubey - Pediatric Neurologist"
           class="hero-photo"
           loading="eager"

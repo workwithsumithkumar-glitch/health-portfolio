@@ -24,7 +24,7 @@
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      src: '/images/awards/ilae-eeg-school-kochi-2020.png',
+      src: '/images/awards/ilae-eeg-school-kochi-2020.webp',
       category: 'awards',
       title: 'ILAE EEG School Faculty',
       location: 'Kochi, India',
@@ -33,7 +33,7 @@
     },
     {
       id: 2,
-      src: '/images/conferences/world-neurology-congress-2023.png',
+      src: '/images/conferences/world-neurology-congress-2023.webp',
       category: 'conferences',
       title: 'World Neurology Congress',
       location: 'International',
@@ -42,7 +42,7 @@
     },
     {
       id: 3,
-      src: '/images/conferences/neurology-advances-2024.png',
+      src: '/images/conferences/neurology-advances-2024.webp',
       category: 'conferences',
       title: 'Neurology Advances Conference',
       location: 'International',
@@ -51,7 +51,7 @@
     },
     {
       id: 4,
-      src: '/images/conferences/ilae-35th-congress-group.png',
+      src: '/images/conferences/ilae-35th-congress-group.webp',
       category: 'conferences',
       title: 'ILAE 35th Congress',
       location: 'International',
@@ -60,7 +60,7 @@
     },
     {
       id: 5,
-      src: '/images/training/cleveland-clinic-usa-2010.png',
+      src: '/images/training/cleveland-clinic-usa-2010.webp',
       category: 'training',
       title: 'Cleveland Clinic Training',
       location: 'Ohio, USA',
@@ -69,7 +69,7 @@
     },
     {
       id: 6,
-      src: '/images/training/paris-myologie-2017.png',
+      src: '/images/training/paris-myologie-2017.webp',
       category: 'training',
       title: 'Institut de Myologie',
       location: 'Paris, France',
@@ -78,7 +78,7 @@
     },
     {
       id: 7,
-      src: '/images/training/cambridge-uk-2018.png',
+      src: '/images/training/cambridge-uk-2018.webp',
       category: 'training',
       title: 'Cambridge Fellowship',
       location: 'Cambridge, UK',
@@ -87,7 +87,7 @@
     },
     {
       id: 8,
-      src: '/images/training/italy-san-servolo-2018.png',
+      src: '/images/training/italy-san-servolo-2018.webp',
       category: 'training',
       title: 'ILAE Fellowship',
       location: 'San Servolo, Italy',
@@ -96,7 +96,7 @@
     },
     {
       id: 9,
-      src: '/images/training/aiims-delhi-2015.png',
+      src: '/images/training/aiims-delhi-2015.webp',
       category: 'training',
       title: 'AIIMS New Delhi',
       location: 'New Delhi, India',
@@ -105,7 +105,7 @@
     },
     {
       id: 10,
-      src: '/images/dignitaries/medical-board-meeting.png',
+      src: '/images/dignitaries/medical-board-meeting.webp',
       category: 'dignitaries',
       title: 'Medical Board Meeting',
       location: 'India',
@@ -114,7 +114,7 @@
     },
     {
       id: 11,
-      src: '/images/gallery/child-consultation.png',
+      src: '/images/gallery/child-consultation.webp',
       category: 'all',
       title: 'Patient Consultation',
       location: 'Indore, India',
@@ -123,7 +123,7 @@
     },
     {
       id: 12,
-      src: '/images/about/clinic-office-setting.png',
+      src: '/images/about/clinic-office-setting.webp',
       category: 'all',
       title: 'Clinic Office',
       location: 'Medanta, Indore',

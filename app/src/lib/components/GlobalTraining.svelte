@@ -7,7 +7,7 @@
       year: '2010',
       training: 'Epilepsy & Electrophysiology',
       description: 'Advanced training in epilepsy monitoring and electrophysiology techniques',
-      image: '/images/training/cleveland-clinic-usa-2010.png',
+      image: '/images/training/cleveland-clinic-usa-2010.webp',
       flag: '🇺🇸',
     },
     {
@@ -17,7 +17,7 @@
       year: '2015',
       training: 'D.M. Pediatric Neurology',
       description: "India's premier medical institution for specialized neurology training",
-      image: '/images/training/aiims-delhi-2015.png',
+      image: '/images/training/aiims-delhi-2015.webp',
       flag: '🇮🇳',
     },
     {
@@ -27,7 +27,7 @@
       year: '2017',
       training: 'Muscle Disorders',
       description: 'Specialized fellowship in neuromuscular disorders and myopathies',
-      image: '/images/training/paris-myologie-2017.png',
+      image: '/images/training/paris-myologie-2017.webp',
       flag: '🇫🇷',
     },
     {
@@ -37,7 +37,7 @@
       year: '2018',
       training: 'Neonatal EEG',
       description: 'Fellowship in neonatal brain monitoring and EEG interpretation',
-      image: '/images/training/cambridge-uk-2018.png',
+      image: '/images/training/cambridge-uk-2018.webp',
       flag: '🇬🇧',
     },
     {
@@ -47,7 +47,7 @@
       year: '2018',
       training: 'ILAE Pediatric Epilepsy',
       description: 'International League Against Epilepsy advanced pediatric program',
-      image: '/images/training/italy-san-servolo-2018.png',
+      image: '/images/training/italy-san-servolo-2018.webp',
       flag: '🇮🇹',
     },
   ];

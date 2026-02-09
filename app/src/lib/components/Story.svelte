@@ -2,9 +2,9 @@
   let selectedThumb = $state(0);
 
   const galleryImages = [
-    { src: '/images/about/clinic-office-setting.png', alt: 'Dr. Dubey in her clinic' },
-    { src: '/images/gallery/child-consultation.png', alt: 'Consultation with a young patient' },
-    { src: '/images/conferences/world-neurology-congress-2023.png', alt: 'Speaking at World Neurology Congress' },
+    { src: '/images/about/clinic-office-setting.webp', alt: 'Dr. Dubey in her clinic' },
+    { src: '/images/gallery/child-consultation.webp', alt: 'Consultation with a young patient' },
+    { src: '/images/conferences/world-neurology-congress-2023.webp', alt: 'Speaking at World Neurology Congress' },
   ];
 </script>
 
